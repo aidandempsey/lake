@@ -1,0 +1,164 @@
+
+  .post-photo{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05);
+    margin: 0px auto;
+    max-height: 300px;
+    max-width: 300px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 1.2em;
+     /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  }
+
+  .avatar {
+    width: 75px;
+    height: 75px;
+    float: left;
+  }
+
+  h1 {
+    font-size: 0.9em;
+    color: var(--heading-color);
+  }
+
+  .surround-comments img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .comments-icon {
+    left: 87px;
+    bottom: -2px;
+    filter: invert(67%) sepia(0%) saturate(1%) hue-rotate(182deg) brightness(92%) contrast(88%);}
+
+.like-icon {
+  left: 0px;
+  bottom: -2px;
+  filter: invert(67%) sepia(0%) saturate(1%) hue-rotate(182deg) brightness(92%) contrast(88%);}
+
+.liked-icon {
+  left: 0px;
+  bottom: -2px;
+  filter: invert(47%) sepia(32%) saturate(1887%) hue-rotate(110deg) brightness(93%) contrast(101%);
+}
+
+.comments{
+  position: absolute;
+  left: 112px;
+  bottom: -4px
+}
+
+.likes{
+  position: absolute;
+  left: 25px;
+  bottom: -5px
+}
+
+
+.surround-comments p{
+  color: var(--text-color);
+  font-size: 1em;
+}
+
+.time p{
+  color: var(--text-color);
+  font-size: 0.9em;
+}
+
+
+
+.surround-comments{
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+ul > form > button{
+  margin-bottom: 20px;
+}
+
+.post-list .details p{
+  color: var(--text-color);
+  font-size: 0.8em;
+}
+
+ul > li > div > p{
+  margin-top: 5px;
+  margin-bottom: 8px;
+  font-size: 1em;
+}
+
+.details{
+  margin-top: 15px;
+  margin-left: auto;
+}
+
+.title{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+ .post-comments{
+  position: relative;
+}
+
+.post-comments form{
+  max-width: 300px;
+  margin: 5px auto;
+  padding: 20px 40px;
+  border: 1px solid var(--second--bg--color);
+  border-radius: 30px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.05);
+  background: var(--second--bg--color);
+}
+
+
+.post-comments h4{
+  max-width: 150px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.comment{
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 20px 40px;
+  border: 1px solid var(--second--bg--color);
+  border-radius: 30px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.05);
+  background: var(--second--bg--color);
+  position: relative;
+} 
+
+.comment button{
+  position: absolute;
+  top:0px;
+  right:0px;
+}
+.comment-details p{
+  color: var(--text-color);
+  font-size: 0.8em;
+  margin: 0 auto;
+}
+
+
+
+

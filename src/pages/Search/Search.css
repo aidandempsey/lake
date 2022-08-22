@@ -1,0 +1,8 @@
+.results a {
+    text-decoration: none;
+  }
+
+  .search-results .details p{
+  color: var(--text-color);
+  font-size: 0.8em;
+}

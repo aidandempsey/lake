@@ -1,0 +1,95 @@
+.modal-backdrop{
+    position: fixed;
+    overflow-y: scroll !important;
+    margin: 0 auto !important;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.modal{
+    padding: 30px;
+    padding-bottom: 25px;
+    max-width: 480px;
+    margin: 100px auto;
+    background: var(--bg-color);
+    border-radius: 10px;
+}
+
+.create-form {
+    max-width: 600px;
+}
+
+.create-form input{
+    margin-top: 10px;
+}
+
+.create-form button:disabled,
+button[disabled], button:disabled:hover {
+  background: grey;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: var(--bg-color);
+  cursor: not-allowed;
+  font-size: 1em;
+  border: 1px solid var(--bg-color);
+}
+
+textarea {
+    resize: none;
+}
+
+.photo-upload{
+    margin-bottom: 5px;
+}
+
+.buttons{
+    position: relative;
+    left: 420px;
+    bottom: 15px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.characters {
+    margin-top: 10px;
+}
+
+.bottom{
+    margin-bottom: 0px;
+}
+
+.characters{
+    max-width: 350px;
+}
+
+.barCompleted {
+  background-color: var(--primary-color);
+  width: 80%;
+}
+
+.label {
+  font-size: 20px;
+  color: var(--heading-color);
+}
+
+.progress{
+    margin: 20px auto;
+    margin-bottom: 20px;
+    width:400px;
+    height: 30px;
+    background-color: var(--second--bg--color);
+    border-radius: 5px;
+}
+
+.progress__fill{
+    height: 100%;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.progress span{
+    color: var(--heading-color);
+}

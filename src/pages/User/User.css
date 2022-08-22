@@ -1,0 +1,20 @@
+.user {
+    max-width: 270px;
+    margin: 20px auto; 
+    padding: 40px;
+    border: 1px solid var(--second--bg--color);
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.05);
+    background: var(--second--bg--color);
+    position: relative;
+    min-height: 60px;
+  }
+
+
+  .user h1, h2, h3, p{
+    color: var(--heading-color);
+  }
+
+  .user .time p{
+    color: var(--primary-color)
+  }

@@ -1,0 +1,23 @@
+.settings-form {
+  max-width: 270px;
+  margin: 20px auto; 
+  padding: 40px;
+  border: 1px solid var(--second--bg--color);
+  border-radius: 30px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.05);
+  background: var(--second--bg--color);
+}
+
+.settings-form input{
+  display: block;
+  margin: 10px;
+  font-size: 1.25em;
+}
+
+.settings-form textarea{
+  min-height: 160px;
+}
+
+.settings-form label{
+  color: var(--second--bg--color);
+}

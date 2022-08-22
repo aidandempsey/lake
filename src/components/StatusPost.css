@@ -1,0 +1,17 @@
+  .status-post{
+     max-width: 300px;
+    margin: 20px auto; 
+    padding: 40px;
+    border: 1px solid var(--second--bg--color);
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.05);
+    background: var(--second--bg--color);
+    position: relative; 
+    }
+
+  
+.status-post button{
+  position: absolute;
+  top:0px;
+  right:0px
+}
